@@ -18,8 +18,19 @@ console.log('Esto es una linea de codigo',i+1);
 
 }
  */
+/* 
+for (i = 10; i >= 1; i--) {
+  alert("Faltan" +  i  + "segundos para el Año Nuevo");
+}
 
-for (let i=10; i>=1; i--){
+alert("Feliz año Nuevoooooo!!!,hubo 25 descorches en las cabezas");
+ */
 
-  console.log('esto es un decremento',i)
+let factor = parseInt(prompt('ingresa un numero y te daremos su tabla'));
+
+for(i=0; i<=10; i++){
+
+    console.log('esta es la tabla del'+' '+ factor +'x'+ i + '=' +factor*i)
+
+
 }
