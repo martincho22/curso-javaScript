@@ -26,11 +26,22 @@ for (i = 10; i >= 1; i--) {
 alert("Feliz año Nuevoooooo!!!,hubo 25 descorches en las cabezas");
  */
 
-let factor = parseInt(prompt('ingresa un numero y te daremos su tabla'));
+/* let factor = parseInt(prompt('ingresa un numero y te daremos su tabla'));
 
 for(i=0; i<=10; i++){
-
     console.log('esta es la tabla del'+' '+ factor +'x'+ i + '=' +factor*i)
+} */
 
+//login
 
+let passUser = 'samuraix';
+
+for (let i=0; i<=3; i++){
+  let login = prompt('Ingrese su clave , para acceder al sistema');
+  if(login==passUser){
+    alert('Bienvenido al Sistema!');
+    break;
+  }
 }
+
+alert('fin de ciclo!!!!!')
