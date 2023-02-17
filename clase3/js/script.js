@@ -38,7 +38,7 @@ let passUser = 'samuraix';
 
 for (let i=0; i<=3; i++){
   let login = prompt('Ingrese su clave , para acceder al sistema');
-  if(login==passUser){
+  if(login===passUser){
     alert('Bienvenido al Sistema!');
     break;
   }
